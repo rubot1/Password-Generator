@@ -6,7 +6,7 @@ import string
 
 total = string.ascii_letters + string.digits + string.punctuation   
 
-length = int(Input("Enter the length of the password: ")) #length of the password
+length = int(input("Enter the length of the password: ")) #length of the password
 
 password = "".join(random.sample(total, length))    # Generate a random password by sampling characters from the total set
 
